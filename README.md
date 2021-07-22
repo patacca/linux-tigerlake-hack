@@ -12,6 +12,7 @@ $ updpkgsums
 ```
 
 If you want to use parallel compilation you have to export the env variable `$MAKEFLAGS`.
+
 Change the number according to the available processors. To find out how many there are run `nproc`
 ```
 $ export MAKEFLAGS="-j8"
