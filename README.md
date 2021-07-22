@@ -26,3 +26,5 @@ $ pacman -U linux-custom-*
 ```
 
 For extra options please refer to https://wiki.archlinux.org/title/Kernel/Arch_Build_System
+
+**Remember to configure the bootloader (grub, lilo, ...) to boot from the new kernel**
