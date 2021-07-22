@@ -6,6 +6,11 @@ AUR package for building linux with the patch that fix BIOS bug https://bugzilla
 # INSTALL
 Optionally change the `config` file
 
+If you changed/added any file you have to regenerate the checksums with
+```
+$ updpkgsums
+```
+
 ```
 $ makepkg -s
 $ pacman -U linux-custom-*
