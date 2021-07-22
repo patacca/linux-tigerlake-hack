@@ -10,3 +10,5 @@ Optionally change the `config` file
 $ makepkg -s
 $ pacman -U linux-custom-*
 ```
+
+For extra options please refer to https://wiki.archlinux.org/title/Kernel/Arch_Build_System
