@@ -1,0 +1,15 @@
+diff --git a/drivers/gpio/gpiolib-acpi.c b/drivers/gpio/gpiolib-acpi.c
+index 411525ac4cc4..4c783bdea0c7 100644
+--- a/drivers/gpio/gpiolib-acpi.c
++++ b/drivers/gpio/gpiolib-acpi.c
+@@ -125,6 +125,10 @@ static struct gpio_desc *acpi_get_gpiod(char *path, int pin)
+ 	if (!chip)
+ 		return ERR_PTR(-EPROBE_DEFER);
+ 
++	/* HACK! HACK! HACK! */
++	if (pin == 44)
++		pin = 140;
++
+ 	return gpiochip_get_desc(chip, pin);
+ }
+ 
