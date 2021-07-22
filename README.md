@@ -11,6 +11,14 @@ If you changed/added any file you have to regenerate the checksums with
 $ updpkgsums
 ```
 
+If you want to use parallel compilation you have to export the env variable `$MAKEFLAGS`.
+Change the number according to the available processors. To find out how many there are run `nproc`
+```
+$ export MAKEFLAGS="-j8"
+```
+
+To build and install the packages just run
+
 ```
 $ makepkg -s
 $ pacman -U linux-custom-*
