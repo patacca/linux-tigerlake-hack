@@ -3,7 +3,7 @@ AUR package for building linux with the patch that fix BIOS bug https://bugzilla
 
 **Note that this is needed only to those that are affected by this BIOS bug and are unable to upgrade the firmware**
 
-# INSTALL
+# INSTALL arch
 Optionally change the `config` file
 
 If you changed/added any file you have to regenerate the checksums with
