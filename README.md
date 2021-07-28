@@ -28,3 +28,11 @@ $ pacman -U linux-custom-*
 For extra options please refer to https://wiki.archlinux.org/title/Kernel/Arch_Build_System
 
 **Remember to configure the bootloader (grub, lilo, ...) to boot from the new kernel**
+
+---
+
+# Other systems
+
+### Ubuntu
+
+For manually building the kernel on ubuntu see the [wiki](https://github.com/patacca/linux-tigerlake-hack/wiki/Manual-building-on-Ubuntu)
