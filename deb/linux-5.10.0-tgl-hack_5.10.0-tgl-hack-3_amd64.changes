@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 02 Aug 2021 10:55:54 -0500
+Source: linux-5.10.0-tgl-hack
+Binary: linux-headers-5.10.0-tgl-hack linux-image-5.10.0-tgl-hack linux-image-5.10.0-tgl-hack-dbg linux-libc-dev
+Architecture: amd64
+Version: 5.10.0-tgl-hack-3
+Distribution: focal
+Urgency: low
+Maintainer: jm <jm@jm>
+Changed-By: jm <jm@jm>
+Description:
+ linux-headers-5.10.0-tgl-hack - Linux kernel headers for 5.10.0-tgl-hack on amd64
+ linux-image-5.10.0-tgl-hack - Linux kernel, version 5.10.0-tgl-hack
+ linux-image-5.10.0-tgl-hack-dbg - Linux kernel debugging symbols for 5.10.0-tgl-hack
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.10.0-tgl-hack (5.10.0-tgl-hack-3) focal; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ aa32d9bbefda2fb4b9a874085aef3c7cf3bff392 5827 linux-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.buildinfo
+ dd18f361daeda38999a2ec6f25646be66a57d3d8 8210036 linux-headers-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ cae1fe01ce07afb739ae37ba7bc7232791a0544d 1099186000 linux-image-5.10.0-tgl-hack-dbg_5.10.0-tgl-hack-3_amd64.deb
+ cd93289595d44f972f8cb9fa9d80d2b79577b08d 65487500 linux-image-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ f3eb4c964681097eee99835c7b2f6197702f19f3 1135040 linux-libc-dev_5.10.0-tgl-hack-3_amd64.deb
+Checksums-Sha256:
+ b4a9b53e545528e985a8e1445b070b00aee54a6532373b3706362229551aa8ee 5827 linux-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.buildinfo
+ a49a4c6c739687bd771ee896e5749455b441e9995859ddf5b478d59125c55c82 8210036 linux-headers-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ cff86512c65deb6dda5d07060dca7bcb28920b09ae44a2beb25d8cb2a656a7f6 1099186000 linux-image-5.10.0-tgl-hack-dbg_5.10.0-tgl-hack-3_amd64.deb
+ f5a108eb824c941ad5dead88b4b35f24d3ab8ef4e3545129cf176530696b110c 65487500 linux-image-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ 40b540cf3ce0d31e070b273bd71370ada91770c0ab0f33fca31a239924fcda53 1135040 linux-libc-dev_5.10.0-tgl-hack-3_amd64.deb
+Files:
+ a1d8121afdd06ed7c71075cb4fb11f30 5827 kernel optional linux-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.buildinfo
+ 0005923550d3463abc38c17b7bc91e2e 8210036 kernel optional linux-headers-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ b81122ea37ae12e890a5f93580f04986 1099186000 debug optional linux-image-5.10.0-tgl-hack-dbg_5.10.0-tgl-hack-3_amd64.deb
+ 461a1a6aa5bd39fb5fe3633052cf6d71 65487500 kernel optional linux-image-5.10.0-tgl-hack_5.10.0-tgl-hack-3_amd64.deb
+ 3dce8a2e48c6bbaa35bf37a40b8658b7 1135040 devel optional linux-libc-dev_5.10.0-tgl-hack-3_amd64.deb
