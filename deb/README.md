@@ -12,6 +12,6 @@ also:
 
 ```
 git clone <this repo>
-sudo ./deb/isntall-deb.sh
+sudo ./deb/install-deb.sh
 ```
 
